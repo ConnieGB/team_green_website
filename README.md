@@ -3,6 +3,8 @@ CFG website project about vegetarianism and veganism
 
 Any updates, add onto here
 
+rgb(82,221,178); the color of the lettuce leaf
+
 So at the moment we think the different pages are going to be:
 homepage; with
   myths debunked

@@ -5,6 +5,62 @@ body {padding-top: 70px;}
   right: 50%;
   padding-top: 5px;
 }
+
+
 a.navbar-brand {
   cursor: default;
+  font-family: 'Montserrat', sans-serif;
+  color: Black;
+}
+
+.jumbotron {
+    font-family:'Montserrat', sans-serif;
+    background-color: White;
+    padding-top: 50px;
+    color: Black;
+
+}
+
+
+.h5 {
+padding-top: 100px;
+}
+
+.panel {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 100px;
+
+}
+
+header,footer {
+  flex:none;
+}
+.page-footer {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+#bs-example-navbar-collapse-1 {
+      background-color: White;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: White;
+    color: rgb(82,221,178);
+}
+
+.page-footer {
+      color: Black;
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+}
+
+
+
+.embed-responsive-item {
+        margin-top: 70px;
+      }
+
+.text-uppercase {
+  align-items: left;
 }
