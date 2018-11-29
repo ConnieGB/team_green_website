@@ -6,6 +6,9 @@ body {padding-top: 70px;}
   padding-top: 5px;
 }
 
+h3 {
+color: rgb(82,221,178);
+}
 
 a.navbar-brand {
   cursor: default;
@@ -20,6 +23,14 @@ a.navbar-brand {
     color: Black;
 
 }
+
+#panel2 {
+    padding-bottom: 100px;
+}
+
+#panel3 {
+    padding-bottom: 100px;
+  }
 
 
 .h5 {
@@ -54,12 +65,9 @@ header,footer {
       margin-bottom: 50px;
 
 }
-
-
-
-.embed-responsive-item {
-        margin-top: 70px;
-      }
+#vegan-video {
+      align-content: center;
+    }
 
 .text-uppercase {
   align-items: left;
