@@ -29,17 +29,6 @@ I think if we try to do anymore it will get too complicated, and it would be bet
 
 
 Connie To Do
-  Get content done
-  Make padding round the jumbotron a bit smaller
-  Put a background image on the Be Inspired jumbotron
-  Try to add an API to the recipe page
-  Make the myths work better
-  Do the Be Inspired pages
-    Put padding around the vegetarian and vegan subtitles and make them green
-  Change the links at the top of each page so that they all link up to the right ones
-  Make the Lettuce Life words the same green colour
-  Change placeholder from location to ingredient
-  style css class for
-    .recipe
-    .recipeTitle
-    .recipeImage
+  Change the links at the bottom of the index page
+  Add in some gifs, a tags or em tags to the myths section
+  Double check that everything links up to everything in the nav bar

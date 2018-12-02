@@ -8,8 +8,18 @@ body {
   padding-top: 5px;
 }
 
+a#the-lettuce-life {
+  color: rgb(82,221,178);
+}
+
 h3 {
-color: rgb(82,221,178);
+  color: rgb(82,221,178);
+  margin-top: 0;
+  text-align: left;
+}
+
+.subtitle {
+  padding: 20px 20px 10px;
 }
 
 a.navbar-brand {
@@ -21,9 +31,8 @@ a.navbar-brand {
 .jumbotron {
     font-family:'Montserrat', sans-serif;
     background-color: White;
-    padding-top: 50px;
+    padding: 10px 0;
     color: Black;
-
 }
 
 #panel2 {
@@ -44,17 +53,17 @@ padding-top: 100px;
   margin-bottom: 100px;
   border-width:0;
   box-shadow: none;
-}
-
-
+  letter-spacing: 1.1px;
+  line-height: 22px;
 }
 
 header,footer {
   flex:none;
 }
+
 .page-footer {
-      font-family: 'Montserrat', sans-serif;
-    }
+  font-family: 'Montserrat', sans-serif;
+}
 
 #bs-example-navbar-collapse-1 {
       background-color: White;
@@ -69,59 +78,56 @@ header,footer {
       color: Black;
       margin-top: 50px;
       margin-bottom: 50px;
-
 }
+
 #vegan-video {
-        position: absolute;
-        margin: auto;
-      }
+  position: absolute;
+  margin: auto;
+}
 
 #carousel-example-generic {
-      width: auto;
-     height: auto;
-   }
-
-
+  width: auto;
+ height: auto;
+}
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+  background: #3B5998;
+  color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
 }
 
 .carousel-example-generic {
-      height: 10px;
-    }
+  height: 10px;
+}
 
 blockquote, blockquote p {
-    max-width: 600px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: black;
-  }
-
+  max-width: 600px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+}
 
 .text-uppercase {
   align-items: left;
@@ -130,3 +136,64 @@ blockquote, blockquote p {
 .twitter-icon-inspired {
   text-align: center;
 }
+
+#jumbotron-inspired {
+      margin-bottom: 0px;
+      background-image: url("../images/close-up-lettuce.png");
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 30px;
+  }
+
+h3#be-inspired {
+  text-shadow: 1px 1px black;
+}
+
+h3#all-recipes {
+  text-shadow: 1px 1px black;
+}
+
+h4#all-recipes-text {
+  text-shadow: 1px 1px black;
+}
+
+#jumbotron-all-recipes {
+      margin-bottom: 0px;
+      background-image: url("../images/cherries.jpg");
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 30px;
+  }
+
+#searchbar {
+  padding: 50px 0px;
+}
+
+a {
+    color: rgb(82,221,178);
+  }
+
+em {
+  color: rgb(82,221,178);
+}
+  /* All recipes */
+  #recipe-holder { /* placeholder div */ }
+  .recipe-card { /* each recipe */
+    padding: 20px 10px;
+    border: 1px solid lightseagreen;
+    border-radius: 25px;
+    background-color: #efefef;
+    margin: 10px 0;
+  }
+  .recipe-title { /* recipe title */
+    width: 100%;
+    color: lightseagreen;
+    background-color: #fff;
+  }
+
+  .recipe-image { /* recipe image*/ max-width: 200px; max-height: 133px; }
+  #recipe-button { background-color: lightseagreen; background-image: none; color: #fff; text-shadow: none;}

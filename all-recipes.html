@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="#">The Lettuce Life</a>
+        <a class="navbar-brand" id="the-lettuce-life" href="#">The Lettuce Life</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,21 +61,31 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="jumbotron" id="jumbotron-all-recipes">
+  <div class="container">
+    <h3 id="all-recipes"> Recipes! </h3>
+    <h4 id="all-recipes-text"> Search in the bar below for recipes by typing in ingredients you would like to be in the recipes.
+      It's that simple!
+    </h4>
+  </div>
+</div>
+
 <div class="container container-table">
     <div class="row vertical-center-row">
-        <div class="content-container text-center col-md-8 col-md-offset-8">
+        <div class="content-container text-center col-md-12" id="searchbar">
             <div class="col-lg-12">
                 <div class="input-group">
-                    <input type="text" class="form-control" id="location" placeholder="Location">
+                    <input type="text" class="form-control" id="ingredient" placeholder="Ingredients separated by a comma, for example: tofu,asparagus,lentils">
                     <span class="input-group-btn">
-                        <button class="btn btn-secondary" id="recipe-button" type="button">Show me some recipes!</button>
+                        <button class="btn btn-default" id="recipe-button" type="button">Show me some recipes!
+                        </button>
                     </span>
                 </div>
             </div>
-            <div id="recipe-holder">
-            </div>
         </div>
     </div>
+</div>
+<div id="recipe-holder" class="container-fluid text-center">
 </div>
 
 <script src="js/api.js"></script>
