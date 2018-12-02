@@ -20,7 +20,26 @@ recipe page; split into
 get inspired page; with
   people who are championing these types of diets
     use featurette headings as a way to organise it
+    The Mcartney's (veg), Drake (veg), Damon Albarn (veg), Peter Dinklage (veg), Forest Whitaker (veg), Leonardo di Caprio (veg, rumoured to be vegan), Joanna Lumley (veg)
+    Evanna Lynch (vegan), Sara Pascoe (vegan), Liam Hemsworth(vegan), Simon Amstell (vegan), Venus and Serena Williams (vegan), John Joseph (vegan), Benedict Cumberbatch (vegan),
   link to their Twitter
   If hover over someone, focus' on them or something
 
 I think if we try to do anymore it will get too complicated, and it would be better to do less but make it amazing!
+
+
+Connie To Do
+  Get content done
+  Make padding round the jumbotron a bit smaller
+  Put a background image on the Be Inspired jumbotron
+  Try to add an API to the recipe page
+  Make the myths work better
+  Do the Be Inspired pages
+    Put padding around the vegetarian and vegan subtitles and make them green
+  Change the links at the top of each page so that they all link up to the right ones
+  Make the Lettuce Life words the same green colour
+  Change placeholder from location to ingredient
+  style css class for
+    .recipe
+    .recipeTitle
+    .recipeImage
