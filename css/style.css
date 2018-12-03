@@ -180,6 +180,11 @@ a {
 em {
   color: rgb(82,221,178);
 }
+
+.giphy-embed {
+  align-items: center;
+}
+
   /* All recipes */
   #recipe-holder { /* placeholder div */ }
   .recipe-card { /* each recipe */

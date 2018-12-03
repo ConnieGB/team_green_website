@@ -30,5 +30,4 @@ I think if we try to do anymore it will get too complicated, and it would be bet
 
 Connie To Do
   Change the links at the bottom of the index page
-  Add in some gifs, a tags or em tags to the myths section
   Double check that everything links up to everything in the nav bar
